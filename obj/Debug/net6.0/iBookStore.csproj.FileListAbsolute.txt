@@ -270,3 +270,4 @@ D:\Bedfordshire\Unit 4 - Software Design Pattern\iBookStore\obj\Debug\net6.0\ref
 D:\Bedfordshire\Unit 4 - Software Design Pattern\iBookStore\obj\Debug\net6.0\iBookStore.pdb
 D:\Bedfordshire\Unit 4 - Software Design Pattern\iBookStore\obj\Debug\net6.0\iBookStore.genruntimeconfig.cache
 D:\Bedfordshire\Unit 4 - Software Design Pattern\iBookStore\obj\Debug\net6.0\ref\iBookStore.dll
+D:\Bedfordshire\Unit 4 - Software Design Pattern\iBookStore\obj\Debug\net6.0\iBookStore.sourcelink.json
