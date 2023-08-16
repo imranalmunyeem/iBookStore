@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\iBookStore.bundle.scp.css"
     },
     {
+      "Id": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\wwwroot\\css\\myCss.css",
+      "PackagePath": "staticwebassets\\css\\myCss.css"
+    },
+    {
       "Id": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

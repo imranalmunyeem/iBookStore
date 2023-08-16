@@ -4,11 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using iBookStore.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace iBookStore.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<DefaultUser>
     {
+        internal object CartItems;
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 
         {
@@ -113,6 +116,7 @@ namespace iBookStore.Data
                         ImageUrl = "/images/pattern.jpg"
                     }
                 );
+
 
             
         }
