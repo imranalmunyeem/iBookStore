@@ -30,5 +30,7 @@ namespace iBookStore.Models
 
     [Display(Name = "Image URL")]
     public string ImageUrl { get; set; }
-}
+
+ 
+    }
 }

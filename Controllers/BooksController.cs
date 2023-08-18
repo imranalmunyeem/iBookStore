@@ -62,6 +62,7 @@ namespace iBookStore.Controllers
             {
                 _context.Add(book);
                 await _context.SaveChangesAsync();
+                TempData["success"] = "Book was added successfully";
                 return RedirectToAction(nameof(Index));
             }
             return View(book);
@@ -80,6 +81,7 @@ namespace iBookStore.Controllers
             {
                 return NotFound();
             }
+            TempData["success"] = "Book was Edited successfully";
             return View(book);
         }
 
@@ -152,6 +154,7 @@ namespace iBookStore.Controllers
             }
             
             await _context.SaveChangesAsync();
+            TempData["success"] = "Book was deleted successfully";
             return RedirectToAction(nameof(Index));
         }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T+JYbbbgpdMXIy9eq6OoRoL5V9YVYsCyGemO6uni5Mo=",
+  "Hash": "cTRgA/p44dmfUhssOMA/8d1RFHRXQVIcnmmbYY305ec=",
   "Source": "iBookStore",
   "BasePath": "_content/iBookStore",
   "Mode": "Default",
@@ -1195,12 +1195,12 @@
       "OriginalItemSpec": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\iBookStore.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\wwwroot\\css\\myCss.css",
+      "Identity": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\wwwroot\\css\\myCustomCss.css",
       "SourceId": "iBookStore",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\wwwroot\\",
       "BasePath": "_content/iBookStore",
-      "RelativePath": "css/myCss.css",
+      "RelativePath": "css/myCustomCss.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1211,7 +1211,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\myCss.css"
+      "OriginalItemSpec": "wwwroot\\css\\myCustomCss.css"
     },
     {
       "Identity": "D:\\Bedfordshire\\Unit 4 - Software Design Pattern\\iBookStore\\wwwroot\\css\\site.css",
