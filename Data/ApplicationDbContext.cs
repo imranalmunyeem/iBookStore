@@ -10,7 +10,7 @@ namespace iBookStore.Data
 {
     public class ApplicationDbContext : IdentityDbContext<DefaultUser>
     {
-        internal object CartItems;
+        //internal object CartItems;
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 
@@ -18,6 +18,9 @@ namespace iBookStore.Data
 
         }
         public DbSet<Book> Books { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
